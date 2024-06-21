@@ -1,0 +1,122 @@
+.custom-navbar {
+    background-color: rgb(255, 61, 61); 
+}
+
+.btn-outline-success {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.btn-outline-success:hover {
+    background-color: rgb(241, 101, 101);
+    border: solid 1px black;
+}
+
+.btn-outline-success:active {
+    background-color: rgb(142, 59, 59);
+}
+
+.slide {
+    height: 50%px;
+    width: 150px;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+.carousel-control-prev-icon {
+    background-color: red;
+}
+
+.carousel-control-next-icon {
+    background-color: red;
+}
+
+.slidee {
+    height: 25%px;
+    width: 150px;
+    position: relative; 
+    text-align: center; 
+}
+
+.slidee h1 {
+    position: absolute; 
+    top: 20px; 
+    left: 0; 
+    right: 0; 
+    z-index: 1; 
+    padding: 10px; 
+}
+
+main{
+    display: flex;
+}
+
+.productos{
+    flex-grow: 1;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+.seccion1{
+    display: flex;
+    
+    justify-content: center;
+   
+}
+.seccion2{
+    display: flex;
+}
+    
+.juego{
+    font-size: large;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.precio{
+    font-size: medium;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.juegosimg{
+    height: 300px;
+    width: 300px;
+}
+
+.producto1{
+    padding: 10px; 
+    margin: 0 10px; 
+    border: 1px solid #ccc;
+}
+
+.producto2{
+    padding: 10px; 
+    margin: 0 10px;
+    border: 1px solid #ccc;
+}
+
+section{
+    padding: 10px; 
+    margin: 0 10px;
+}
+
+.©COPYRIGHT{
+    font-size: medium;
+    color: white;
+}
+footer{
+    text-align: right;
+    background-color: red;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
